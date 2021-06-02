@@ -35,21 +35,6 @@ header {
 main {
   grid-area: main;
   padding: 1rem;
-  display: flex;
-  grid-template-areas: "sidebar" "content";
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  height: 100%;
-}
-
-sidebar {
-  grid-area: sidebar;
-  padding: 1rem;
-  background-color: #747070;
-}
-content {
-  grid-area: content;
-  padding: 1rem;
 }
 footer {
   grid-area: footer;
@@ -154,7 +139,7 @@ img.large {
 /* Card */
 .card {
   border: 0.1rem #c0c0c0 solid;
-  background-color: #f1e4e4;
+  background-color: #f8f8f8;
   border-radius: 0.5rem;
   margin: 1rem;
 }
